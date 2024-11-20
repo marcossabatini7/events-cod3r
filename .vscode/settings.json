@@ -1,0 +1,23 @@
+{
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "always",
+        "source.organizeImports": "always"
+    },
+    "eslint.run": "onType",
+    "eslint.enable": true,
+    "eslint.validate": [
+        "html",
+        "javascript",
+        "typescript",
+        "javascriptreact",
+        "typescriptreact"
+    ],
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "typescript.tsdk": "apps/frontend/node_modules/typescript/lib",
+    "code-runner.executorMap": {
+        "typescript": "npx tsx"
+    }
+}
